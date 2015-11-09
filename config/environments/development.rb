@@ -42,7 +42,7 @@ Paperclip.options[:command_path] = "/opt/ImageMagick/bin"
   # config.action_view.raise_on_missing_translations = true
 
   # Devise
-  config.action_mailer.default_url_options = { host: 'localhost', port: 3000 }
+  #config.action_mailer.default_url_options = { host: 'localhost', port: 3000 }
 
 
 end
