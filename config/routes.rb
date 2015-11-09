@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-
+  root to: 'usuarios#index'
 
   resources :home
   
@@ -11,8 +11,6 @@ Rails.application.routes.draw do
 
   resources :inicio
 
-  root 'usuarios#index'
-  
   get 'usuarios/index'
 
   resources :comentarios
